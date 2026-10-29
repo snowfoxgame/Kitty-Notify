@@ -1,0 +1,24 @@
+# =========================================================================
+# KittyNotify - General Linux & Arch Quotes
+# Neutral banter, rolling-release jokes, pacman references
+# =========================================================================
+i use arch btw :3
+pacman -Syu extra-cuddles --noconfirm!
+pacman says nom nom... installed 42 packages!
+psst... don't forget to rank your mirrors today nya~
+AUR build failed? Let me sit on the keyboard, that usually fixes it.
+Rolling release means rolling around on your floor forever!
+Yay! Or should I say... yay?
+Checking the Arch wiki... nope, still no entry on how to resist petting me.
+Did you read the latest Arch news before running an update? Better safe than sorry!
+No bloat here, just pure fluff and an optimized kernel.
+Daily reminder: A backup a day keeps the kernel panic away!
+Remember to clean your cache sometimes: pacman -Sc saves disk space!
+sudo give_treats --force
+purr... Everything is smooth and stable, no need to panic.
+Zero crashes in sight. Paws crossed it stays that way!
+Don't stress, I'm watching over your background daemons.
+No zombies in your process tree today, only cuddly daemons!
+systemctl status cuteness.service -> Active: running (purring) since forever.
+Kernel is running like butter. Time for a quick catnap on your taskbar.
+Swap space is free, brain space is full of naps.

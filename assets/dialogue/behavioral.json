@@ -1,0 +1,324 @@
+[
+  {
+    "category": "dismiss_streak",
+    "quote": "You've brushed me off {dismiss_streak} times already... A quick 'pacman -Syu' doesn't bite, nya~ :3",
+    "mood": "cute",
+    "condition": {
+      "min_dismiss_streak": 3,
+      "max_dismiss_streak": 5
+    }
+  },
+  {
+    "category": "dismiss_streak",
+    "quote": "Hello? Ignored {dismiss_streak} times. I thought we use Arch to be bleeding-edge, not bleeding-ancient? >.<",
+    "mood": "sassy",
+    "condition": {
+      "min_dismiss_streak": 3,
+      "max_dismiss_streak": 5
+    }
+  },
+  {
+    "category": "dismiss_streak",
+    "quote": "{dismiss_streak} dismiss clicks already... My little update dot is about to weep quietly into the Wayland buffer. ;w;",
+    "mood": "cute",
+    "condition": {
+      "min_dismiss_streak": 4,
+      "max_dismiss_streak": 5
+    }
+  },
+  {
+    "category": "dismiss_streak",
+    "quote": "Streak: {dismiss_streak}! Are you secretly trying to recreate Debian stability or why are you scared of fresh packages? =^._.^=",
+    "mood": "sassy",
+    "condition": {
+      "min_dismiss_streak": 6,
+      "max_dismiss_streak": 10
+    }
+  },
+  {
+    "category": "dismiss_streak",
+    "quote": "{dismiss_streak} clicks on 'Later'... When on earth is this ominous 'later'? My patience is thinner than a 1-pixel border! :/",
+    "mood": "sassy",
+    "condition": {
+      "min_dismiss_streak": 6,
+      "max_dismiss_streak": 10
+    }
+  },
+  {
+    "category": "dismiss_streak",
+    "quote": "If the kernel throws a tantrum over a version mismatch, I'm definitely not consoling it, nya! Streak is at {dismiss_streak}! >_<",
+    "mood": "sassy",
+    "condition": {
+      "min_dismiss_streak": 8,
+      "max_dismiss_streak": 10
+    }
+  },
+  {
+    "category": "dismiss_streak",
+    "quote": "PANIC! Dismissed {dismiss_streak} times?! Our shared libraries are about to shatter into a thousand pieces, run the update! ;A;",
+    "mood": "worried",
+    "condition": {
+      "min_dismiss_streak": 11
+    }
+  },
+  {
+    "category": "dismiss_streak",
+    "quote": "{dismiss_streak} ignored... I'm terrified to even look at the package list. Please... just type 'sudo pacman -Syu' before everything burns! QwQ",
+    "mood": "worried",
+    "condition": {
+      "min_dismiss_streak": 11
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "It's {hour}:00 in the morning... Even Wayland is falling asleep. Shoo, off to bed, human! >.<",
+    "mood": "worried",
+    "condition": {
+      "min_hour": 1,
+      "max_hour": 5
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "Oof, {hour}:00 at night and {top_process} is still pulling full load? Your sleep schedule definitely has a segmentation fault, nya~ :3",
+    "mood": "sassy",
+    "condition": {
+      "min_hour": 1,
+      "max_hour": 4,
+      "top_process_in": ["steam", "gamescope"]
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "Psst... {hour}:00. If you go to sleep now, you might dream of cleanly compiled Rust code~ *yawn* :3",
+    "mood": "cute",
+    "condition": {
+      "min_hour": 2,
+      "max_hour": 5
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "Uptime: {uptime}?! My tiny pixel paws are burning up just watching. How about a screen break and some water? ;w;",
+    "mood": "worried",
+    "condition": {
+      "min_uptime_secs": 43200,
+      "max_uptime_secs": 86399
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "We're at {uptime} runtime... Are you human or an indestructible system daemon? x-x",
+    "mood": "sassy",
+    "condition": {
+      "min_uptime_secs": 86400
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "A full {uptime} without a reboot. Impressively stable for KDE Plasma, but your dark eye circles are rendering in painful 4K, nya~ :3",
+    "mood": "sassy",
+    "condition": {
+      "min_uptime_secs": 57600
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "*Stretch* Meow~ Good morning! It's {hour}:00 and the Linux kernel is already purring like a kitten! ^-^",
+    "mood": "cute",
+    "condition": {
+      "min_hour": 6,
+      "max_hour": 8,
+      "max_uptime_secs": 1799
+    }
+  },
+  {
+    "category": "night_habits",
+    "quote": "At the PC this early ({hour}:00)? Grab a coffee before ripping open the terminal, nya~ :3",
+    "mood": "cute",
+    "condition": {
+      "min_hour": 6,
+      "max_hour": 8
+    }
+  },
+  {
+    "category": "resource_gaming",
+    "quote": "System only booted {uptime} ago and {top_process} is already running? Top-tier priorities, nya! :3",
+    "mood": "cute",
+    "condition": {
+      "max_uptime_secs": 299,
+      "top_process_in": ["steam", "gamescope"]
+    }
+  },
+  {
+    "category": "resource_gaming",
+    "quote": "Desktop hasn't even warmed up yet and you're already launching {top_process}. Productivity is off the table today, huh? =^._.^=",
+    "mood": "sassy",
+    "condition": {
+      "max_uptime_secs": 599,
+      "top_process_in": ["steam"]
+    }
+  },
+  {
+    "category": "resource_gaming",
+    "quote": "{ram_used} of {ram_total} in use?! Did you leave 400 tabs open in {top_process} again? *panicked cat noises* x-x",
+    "mood": "sassy",
+    "condition": {
+      "min_ram_percent": 85.0,
+      "top_process_in": ["firefox", "chromium"]
+    }
+  },
+  {
+    "category": "resource_gaming",
+    "quote": "Meow... {top_process} is devouring almost all of our {ram_total} RAM. The OOM killer is about to feast on your favorite tab! ;A;",
+    "mood": "worried",
+    "condition": {
+      "min_ram_percent": 90.0
+    }
+  },
+  {
+    "category": "resource_gaming",
+    "quote": "{top_process} is munching on our memory like fresh catnip... Do you really still need last month's tabs open? :3",
+    "mood": "sassy",
+    "condition": {
+      "min_uptime_secs": 21601,
+      "top_process_in": ["firefox", "brave"]
+    }
+  },
+  {
+    "category": "resource_gaming",
+    "quote": "Help! {top_process} wants everything ({ram_used}/{ram_total})! The fans sound like a jet taking off, nyaaa! >.<",
+    "mood": "worried",
+    "condition": {
+      "min_ram_percent": 88.0,
+      "top_process_in": ["wine-preloader", "gamescope"]
+    }
+  },
+  {
+    "category": "resource_gaming",
+    "quote": "{top_process} is sweating, the GPU is glowing, and we're scraping the edge of {ram_total} RAM... Hang in there, little rig! QwQ",
+    "mood": "worried",
+    "condition": {
+      "min_ram_percent": 92.0
+    }
+  },
+  {
+    "category": "post_crash",
+    "quote": "W-what was that just now?! Everything went black... Are you still alive? My whiskers are shaking! x-x",
+    "mood": "worried",
+    "condition": {
+      "unclean_shutdown": true,
+      "max_uptime_secs": 179
+    }
+  },
+  {
+    "category": "post_crash",
+    "quote": "*Shakes head* Oof... That definitely wasn't a clean 'systemctl poweroff'. My data structs just had a near-death experience, nya! ;w;",
+    "mood": "worried",
+    "condition": {
+      "unclean_shutdown": true,
+      "max_uptime_secs": 299
+    }
+  },
+  {
+    "category": "post_crash",
+    "quote": "Whoa, where am I? A hard reset?! I thought the kernel grim reaper came for me! Don't do that again, nya~ QwQ",
+    "mood": "worried",
+    "condition": {
+      "unclean_shutdown": true,
+      "max_uptime_secs": 119
+    }
+  },
+  {
+    "category": "post_crash",
+    "quote": "Phew, journalctl check survived... Did you pull the plug or did Plasma implode? Don't look at me like that, wasn't me! :3",
+    "mood": "sassy",
+    "condition": {
+      "unclean_shutdown": true,
+      "max_uptime_secs": 299
+    }
+  },
+  {
+    "category": "post_crash",
+    "quote": "Meow?! One moment here, then boom – gone! I barely made it out with a bruised pixel. Everything intact on your end? ;A;",
+    "mood": "cute",
+    "condition": {
+      "unclean_shutdown": true,
+      "max_uptime_secs": 299
+    }
+  },
+  {
+    "category": "post_crash",
+    "quote": "Ouch... My little memory.json nearly choked during that crash. Please tell me your files were saved! >.<",
+    "mood": "worried",
+    "condition": {
+      "unclean_shutdown": true,
+      "max_uptime_secs": 179
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "Oof, your pacman cache weighs a hefty {cache_size} GB! Are there ancient package fossils hoarding dust in there, nya? :3",
+    "mood": "sassy",
+    "condition": {
+      "min_cache_size_gb": 6.0
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "{cache_size} GB cache?! My disk scratchpad is full! A little 'paccache -r' would work wonders~ ^-^",
+    "mood": "cute",
+    "condition": {
+      "min_cache_size_gb": 6.0
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "Meow... {cache_size} GB of junk on the SSD. Should I lick it clean or will you grab the broom yourself? >w<",
+    "mood": "sassy",
+    "condition": {
+      "min_cache_size_gb": 8.0
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "{orphan_count} orphaned packages rotting away here! Nobody misses them anymore... Time for 'pacman -Qtdq', nya~ :3",
+    "mood": "cute",
+    "condition": {
+      "min_orphan_count": 15
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "{orphan_count} orphaned packages without a home?! I'm opening a cat shelter for abandoned dependencies if you don't tidy up! ;w;",
+    "mood": "worried",
+    "condition": {
+      "min_orphan_count": 15
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "There are {orphan_count} lonely packages lurking in the dark... Nobody calls them, nobody loves them. Put them out of their misery, please? >.<",
+    "mood": "cute",
+    "condition": {
+      "min_orphan_count": 15
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "Meow! {orphan_count} orphaned packages and {cache_size} GB cache... You collect system junk like I hoard virtual dust bunnies! Be a little ashamed~ :P",
+    "mood": "sassy",
+    "condition": {
+      "min_cache_size_gb": 6.0,
+      "min_orphan_count": 20
+    }
+  },
+  {
+    "category": "maintenance",
+    "quote": "Insane, {orphan_count} orphaned packages! Your Arch is gathering dust, pal. Break out the package manager vacuum! x-x",
+    "mood": "sassy",
+    "condition": {
+      "min_orphan_count": 25
+    }
+  }
+]

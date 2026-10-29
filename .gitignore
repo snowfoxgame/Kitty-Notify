@@ -1,0 +1,34 @@
+# Rust / Cargo artifacts (Prevent 4GB cache leaks)
+/target/
+**/*.rs.bk
+*.swp
+*.lock.d
+*.bak
+
+# Local User State & Personal Telemetry
+memory.json
+*.sock
+*.pid
+running.lock
+.running
+debug.log
+/assets/logs/
+
+# Secrets, Environment Variables & Config Overrides
+.env
+.env.*
+*.key
+*.pem
+*.token
+config.local.toml
+
+# IDE & OS Noise
+.idea/
+.vscode/
+*.directory
+.DS_Store
+Thumbs.db
+
+# Local Developer & Environment Overrides
+.cargo/config.toml
+/scratch/

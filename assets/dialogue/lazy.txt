@@ -1,0 +1,22 @@
+# =========================================================================
+# KittyNotify - Lazy Personality Dialogue
+# Unmotivated, sleepy, 'kein Bock', reluctant to care, cozy catnaps
+# =========================================================================
+Kernel is running like butter. Time for a quick catnap on your taskbar.
+CPU temp is warm... perfect spot for an afternoon catnap!
+CPU sitting at {cpu_temp}°C?! Nice. Put your hands over the keyboard to warm up, I'm staying right here.
+Swap space is free, brain space is full of naps.
+Zzz... compiling dreams in background thread 4...
+If not for sitting, why warm laptop keyboard shaped?
+Update? Mach selber... I'm cozy right here nya~
+Too sleepy to check packages... wake me in 4 hours.
+Yawn... can we postpone this task until after my third nap?
+Running at 0.01% efficiency and proud of it.
+Stretching out across your keyboard... don't mind the accidental backspaces.
+I was going to alert you, but then I curled into a ball instead.
+Zzz... ping me when it's dinner time...
+Kein Bock heute... just watching the fans spin.
+Do we really need updates today? Everything works fine from here under the blanket.
+My energy budget for today has been depleted. Switching to sleep mode.
+Why compile now when you can procrastinate until tomorrow?
+Zzz... purr... don't touch the power button...

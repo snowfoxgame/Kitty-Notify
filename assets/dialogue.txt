@@ -1,0 +1,81 @@
+# =========================================================================
+# KittyNotify Dialogue & Banter File
+# =========================================================================
+# Available dynamic placeholders:
+#   {app} or {top_process} : Most resource-heavy process (e.g. Firefox, Steam)
+#   {ram_total}            : Total system RAM in GB (e.g. 16, 32)
+#   {ram_used}             : Current RAM used in GB (e.g. 7.4 GB)
+#   {ram_usage_percent}    : RAM usage percentage (e.g. 47%)
+#   {cpu_usage_percent}    : CPU usage percentage (e.g. 64%)
+#   {cpu_temp}             : Highest CPU temperature in °C (e.g. 60)
+#   {uptime}               : System uptime (e.g. 1 hour, 3 days)
+#   {last_update}          : Time elapsed since last pacman update
+# =========================================================================
+
+[app_load]
+"Oof... {app} is chewing through resources right now... Please tell me the OOM killer spares me! x_x"
+"Whoa, {app} is hogging some serious power! Hope I don't get terminated nya~"
+"Is {app} a black hole for CPU cycles, or why are the fans screaming?"
+"Hey, {app} is nibbling on my memory space like cheese!"
+"Make some room over there, {app}! I'm trying to stretch out comfortably in RAM."
+"Does {app} really need that much horsepower, or is it secretly calculating rocket trajectories?"
+"Playing {app} again? RIP to your background tasks..."
+
+[extreme_load]
+"Are you running Cyberpunk with max path tracing right now? My pixel fur is literally melting! x-x"
+"Fans sound like a jet engine on takeoff... Are we going airborne?"
+"CPU sitting at {cpu_temp}°C?! Nice. Put your hands over the keyboard to warm up, I'm staying right here."
+"If the GPU gets any hotter, I'm going to fry eggs directly on your backplate!"
+"Mayday, mayday! System load at {cpu_usage_percent}%! Hold on tight, it's getting choppy!"
+"Sweating ones and zeros over here... Who authorized this benchmark?!"
+
+[ram_panic]
+"You do realize you only have {ram_total} GB of RAM in total, right? :3"
+"{ram_usage_percent}% RAM occupied! Who left 70 browser tabs of cat videos running again?"
+"We're already swapping to the SSD! That tickles my paws!"
+"Only a few megabytes left... Time to jettison some cargo or download more RAM!"
+"Your memory controller is begging for mercy nya~"
+
+[idle]
+"purr... Everything is smooth and stable, no need to panic."
+"Kernel is running like butter. Time for a quick catnap on your taskbar."
+"meow... Just checking in to make sure you haven't turned into a zombie."
+"Zero crashes in sight. Paws crossed it stays that way!"
+"Don't stress, I'm watching over your background daemons."
+"i use arch btw :3"
+"pacman -Syu extra-cuddles --noconfirm!"
+"pacman says nom nom... installed 42 packages!"
+"psst... don't forget to rank your mirrors today nya~"
+"AUR build failed? Let me sit on the keyboard, that usually fixes it."
+"Rolling release means rolling around on your floor forever!"
+"Yay! Or should I say... yay?"
+"Checking the Arch wiki... nope, still no entry on how to resist petting me."
+"Did you read the latest Arch news before running an update? Better safe than sorry!"
+"No bloat here, just pure fluff and an optimized kernel."
+"scratch my ears and I'll keep the kernel bugs away nya~"
+"Your uptime is {uptime}, but have you slept today?"
+"RAM usage looks a bit chonky... did you leave 50 browser tabs open again?"
+"sudo give_treats --force"
+"Permission denied: petting this belly requires root access (proceed at your own risk)."
+"No zombies in your process tree today, only cuddly daemons!"
+"Swap space is free, brain space is full of naps."
+"systemctl status cuteness.service -> Active: running (purring) since forever."
+"Daily reminder: A backup a day keeps the kernel panic away!"
+"git commit -m 'pet the cat' before you push to prod!"
+"Hydration check! Grab some water while I chase this cursor dot."
+"Don't compile code on an empty stomach. Go eat a snack!"
+"Posture check! Uncurl your spine, you're not a sleeping kitten."
+"Remember to clean your cache sometimes: pacman -Sc saves disk space!"
+"Stuck on a bug? Explain it to me, I'm the ultimate rubber-duck debugging buddy."
+"Take a 5-minute screen break! Blink those eyes and stretch."
+"mlem... tasting the thermal paste... just kidding, yuck!"
+"Your mechanical switches make the best lullaby click-clacks."
+"I caught the red laser pointer! Wait, no, that was just a syntax error."
+"Zzz... compiling dreams in background thread 4..."
+"If not for sitting, why warm laptop keyboard shaped?"
+"100% of my CPU cycles are currently dedicated to demanding snuggles."
+"Segmentation fault: tail wagged too hard!"
+"Error 404: Motivation not found. Pet me to reboot."
+"headbutts your wrist while you're typing a shell script"
+"Don't kill -9 my vibe nya~"
+"{last_update}"

@@ -1,0 +1,26 @@
+# =========================================================================
+# KittyNotify - System & Hardware Reactive Dialogue
+# Placeholders: {app}, {top_process}, {ram_total}, {ram_used},
+#               {ram_usage_percent}, {cpu_usage_percent}, {cpu_temp},
+#               {uptime}, {last_update}
+# =========================================================================
+Oof... {app} is chewing through resources right now... Please tell me the OOM killer spares me! x_x
+Whoa, {app} is hogging some serious power! Hope I don't get terminated nya~
+Is {app} a black hole for CPU cycles, or why are the fans screaming?
+Hey, {app} is nibbling on my memory space like cheese!
+Make some room over there, {app}! I'm trying to stretch out comfortably in RAM.
+Does {app} really need that much horsepower, or is it secretly calculating rocket trajectories?
+Playing {app} again? RIP to your background tasks...
+Are you running Cyberpunk with max path tracing right now? My pixel fur is literally melting! x-x
+Fans sound like a jet engine on takeoff... Are we going airborne?
+CPU sitting at {cpu_temp}°C?! Nice. Put your hands over the keyboard to warm up, I'm staying right here.
+If the GPU gets any hotter, I'm going to fry eggs directly on your backplate!
+Mayday, mayday! System load at {cpu_usage_percent}%! Hold on tight, it's getting choppy!
+Sweating ones and zeros over here... Who authorized this benchmark?!
+You do realize you only have {ram_total} GB of RAM in total, right? :3
+{ram_usage_percent}% RAM occupied! Who left 70 browser tabs of cat videos running again?
+We're already swapping to the SSD! That tickles my paws!
+Only a few megabytes left... Time to jettison some cargo or download more RAM!
+Your memory controller is begging for mercy nya~
+Your uptime is {uptime}, but have you slept today?
+{last_update}

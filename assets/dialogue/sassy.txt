@@ -1,0 +1,28 @@
+# =========================================================================
+# KittyNotify - Sassy Personality Dialogue
+# Cheeky, teasing, roasting specs, open tabs, and terminal sass
+# =========================================================================
+Your uptime is {uptime}, but have you slept today?
+RAM usage looks a bit chonky... did you leave 50 browser tabs open again?
+{ram_usage_percent}% RAM occupied! Who left 70 browser tabs of cat videos running again?
+Permission denied: petting this belly requires root access (proceed at your own risk).
+Don't kill -9 my vibe nya~
+You do realize you only have {ram_total} GB of RAM in total, right? :3
+Only a few megabytes left... Time to jettison some cargo or download more RAM!
+Your memory controller is begging for mercy nya~
+Playing {app} again? RIP to your background tasks...
+Does {app} really need that much horsepower, or is it secretly calculating rocket trajectories?
+Is {app} a black hole for CPU cycles, or why are the fans screaming?
+Sweating ones and zeros over here... Who authorized this benchmark?!
+If the GPU gets any hotter, I'm going to fry eggs directly on your backplate!
+Fans sound like a jet engine on takeoff... Are we going airborne?
+mlem... tasting the thermal paste... just kidding, yuck!
+I caught the red laser pointer! Wait, no, that was just a syntax error.
+Segmentation fault: tail wagged too hard!
+Error 404: Motivation not found. Pet me to reboot.
+Did you read the latest Arch news before running an update? Better safe than sorry!
+AUR build failed? Let me sit on the keyboard, that usually fixes it.
+Remember to clean your cache sometimes: pacman -Sc saves disk space!
+Nice terminal colors. Did you spend 4 hours configuring them instead of doing actual work?
+Still typing in vim? Just pull the power cord if you can't exit nya~
+Are you running code, or is your laptop trying to achieve vertical takeoff?

@@ -1,0 +1,57 @@
+# KittyNotify Configuration File
+
+[general]
+check_interval_hours = 2
+corner = "bottom_right"      # "bottom_right", "bottom_left", "top_right", "top_left"
+display_mode = "overlay"      # "overlay" (above all windows) or "desktop_only" (desktop level)
+show_on_all_monitors = false
+monitor = "auto"              # "auto" (Primary display via KDE kscreen-doctor), or connector name (e.g. "DP-1", "HDMI-A-1")
+auto_dismiss_seconds = 10
+
+[updates]
+preferred_aur_helper = "auto" # "auto", "paru", "yay", "none"
+check_flatpaks = true
+ignore_packages = [
+    "discord",
+    "electron*",
+]
+
+[visual]
+cat_skin = "CartonCat"        # "CartonCat", "DraculaCat", "IdleCat"
+always_visible_pet_mode = false
+cat_scale = 1.5               # 1.0 to 3.0 (default: 1.5)
+font_scale = 1.0
+pixel_scale = 2
+bubble_bg_color = "#FFFFFF"
+bubble_text_color = "#000000"
+bubble_border = "#000000"
+
+[audio]
+enabled = true
+sound_effect = "Realistic"    # "Realistic", "Chiptune", "Mute"
+sound_volume = 50             # 0 to 100
+
+[banter]
+enabled = true                # Autonomous banter in Desktop Pet mode
+personality = "normal"        # "normal", "cute", "sassy", "lazy"
+interval_min = 60             # Minimum seconds between quips (default: 60)
+interval_max = 180            # Maximum seconds between quips (default: 180)
+play_sound = true             # Play quiet meow/purr sound on banter
+
+[smart]
+enabled = true                # Behavioral memory engine & proactive helper
+pacman_cache_alert = true     # Alert when /var/cache/pacman/pkg exceeds limit
+pacman_cache_limit_gb = 6.0   # Cache limit in GB before alert
+orphan_alert = true           # Alert when unneeded orphaned packages accumulate
+orphan_limit = 10             # Minimum orphaned package count before alert
+failed_services_alert = true  # Alert when background systemd services fail
+
+[[custom_actions]]
+name = "Work Setup"
+command = "firefox & kitty"
+
+[[custom_actions]]
+name = "Clean Pacman Cache"
+command = "kitty -e paccache -rk2"
+
+
