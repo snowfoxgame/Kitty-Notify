@@ -57,8 +57,8 @@ Optional (for AUR helper update checks):
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/snowfoxgame/Kitty-Updater-Noti.git
-   cd Kitty-Updater-Noti
+   git clone https://github.com/snowfoxgame/Kitty-Notify.git
+   cd Kitty-Notify
    ```
 
 2. **Build the release binary:**
